@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body bgcolor="#ffc0cb">
+    <form action="myHandleForm.php" method="post">
+        <table>
+            <tr>
+                <td>First name</td>
+                <td><input type="text" name="FirstName" size="20"></td>
+            </tr>
+            <tr>
+                <td>Last name</td>
+                <td><input type="text" name="LastName" size="20"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="Email" size="20"></td>
+            </tr>
+            <tr>
+                <td>Comments</td>
+                <td><textarea name="Comments" rows="5" cols="40"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" name="Submit" value="OK">
+        <input type="reset" name="Reset" value="Cancel">
+    </form>
+</body>
+</html>
